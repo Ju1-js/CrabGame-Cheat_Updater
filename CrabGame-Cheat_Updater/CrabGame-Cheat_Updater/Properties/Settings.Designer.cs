@@ -35,5 +35,17 @@ namespace CrabGame_Cheat_Updater.Properties {
                 this["downloadLocation"] = value;
             }
         }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("0")]
+        public string localVersion {
+            get {
+                return ((string)(this["localVersion"]));
+            }
+            set {
+                this["localVersion"] = value;
+            }
+        }
     }
 }
