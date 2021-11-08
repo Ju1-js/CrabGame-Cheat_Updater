@@ -1,0 +1,9 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="CrabGame_Cheat_Updater.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="downloadLocation" Type="System.String" Scope="User">
+      <Value Profile="(Default)">https://github.com/DasJNNJ/CrabGame-Cheat/releases/latest/download/CrabGame_Cheat_BepInEx.dll</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

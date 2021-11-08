@@ -1,0 +1,9 @@
+C:\Users\jlaur\Documents\GitHub\CrabGame-Cheat_Updater\CrabGame-Cheat_Updater\CrabGame-Cheat_Updater\bin\Debug\CrabGame-Cheat_Updater.exe.config
+C:\Users\jlaur\Documents\GitHub\CrabGame-Cheat_Updater\CrabGame-Cheat_Updater\CrabGame-Cheat_Updater\bin\Debug\CrabGame-Cheat_Updater.exe
+C:\Users\jlaur\Documents\GitHub\CrabGame-Cheat_Updater\CrabGame-Cheat_Updater\CrabGame-Cheat_Updater\bin\Debug\CrabGame-Cheat_Updater.pdb
+C:\Users\jlaur\Documents\GitHub\CrabGame-Cheat_Updater\CrabGame-Cheat_Updater\CrabGame-Cheat_Updater\obj\Debug\CrabGame_Cheat_Updater.Form1.resources
+C:\Users\jlaur\Documents\GitHub\CrabGame-Cheat_Updater\CrabGame-Cheat_Updater\CrabGame-Cheat_Updater\obj\Debug\CrabGame_Cheat_Updater.Properties.Resources.resources
+C:\Users\jlaur\Documents\GitHub\CrabGame-Cheat_Updater\CrabGame-Cheat_Updater\CrabGame-Cheat_Updater\obj\Debug\CrabGame-Cheat_Updater.csproj.GenerateResource.cache
+C:\Users\jlaur\Documents\GitHub\CrabGame-Cheat_Updater\CrabGame-Cheat_Updater\CrabGame-Cheat_Updater\obj\Debug\CrabGame-Cheat_Updater.csproj.CoreCompileInputs.cache
+C:\Users\jlaur\Documents\GitHub\CrabGame-Cheat_Updater\CrabGame-Cheat_Updater\CrabGame-Cheat_Updater\obj\Debug\CrabGame-Cheat_Updater.exe
+C:\Users\jlaur\Documents\GitHub\CrabGame-Cheat_Updater\CrabGame-Cheat_Updater\CrabGame-Cheat_Updater\obj\Debug\CrabGame-Cheat_Updater.pdb
