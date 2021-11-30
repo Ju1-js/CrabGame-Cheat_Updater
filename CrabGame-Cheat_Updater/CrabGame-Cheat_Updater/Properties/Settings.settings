@@ -3,7 +3,7 @@
   <Profiles />
   <Settings>
     <Setting Name="downloadLocation" Type="System.String" Scope="User">
-      <Value Profile="(Default)">https://github.com/DasJNNJ/CrabGame-Cheat/releases/latest/download/CrabGame_Cheat_BepInEx.dll</Value>
+      <Value Profile="(Default)">https://github.com/CodeName-Anti/CrabGame-Cheat/releases/latest/download/CrabGame_Cheat_BepInEx.dll</Value>
     </Setting>
     <Setting Name="localVersion" Type="System.String" Scope="User">
       <Value Profile="(Default)">0</Value>

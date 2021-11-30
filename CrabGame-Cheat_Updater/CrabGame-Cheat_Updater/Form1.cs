@@ -1,11 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Net;
 using System.Diagnostics;
@@ -35,19 +30,22 @@ namespace CrabGame_Cheat_Updater
 
         private void DownloadPrompt()
         {
-            SaveFileDialog sfd = new SaveFileDialog(); // sfd for saveFileDialouge
-            sfd.InitialDirectory = Convert.ToString("C:/Program Files (x86)/Steam/steamapps/common/Crab Game/BepInEx/plugins");
-            sfd.Filter = "Application Extension (*.dll)|*.dll|All Files (*.*)|*.*";
-            sfd.FilterIndex = 1;
-            sfd.RestoreDirectory = true;
-            sfd.OverwritePrompt = true;
-            sfd.ValidateNames = true;
+            SaveFileDialog sfd = new SaveFileDialog
+            {
+                InitialDirectory = Convert.ToString("C:/Program Files (x86)/Steam/steamapps/common/Crab Game/BepInEx/plugins"),
+                Filter = "Application Extension (*.dll)|*.dll|All Files (*.*)|*.*",
+                FilterIndex = 1,
+                RestoreDirectory = true,
+                OverwritePrompt = true,
+                ValidateNames = true
+            }; // sfd for saveFileDialouge
+
             WebClient webClient = new WebClient();
 
             var data = webClient.DownloadData(downloadLocation);
             string fileName;
             // Try to extract the filename from the Content-Disposition header
-            if (!String.IsNullOrEmpty(webClient.ResponseHeaders["Content-Disposition"]))
+            if (!string.IsNullOrEmpty(webClient.ResponseHeaders["Content-Disposition"]))
             {
                 fileName = webClient.ResponseHeaders["Content-Disposition"].Substring(webClient.ResponseHeaders["Content-Disposition"].IndexOf("filename=") + 9).Replace("\"", "");
                 sfd.FileName = fileName;
@@ -82,7 +80,7 @@ namespace CrabGame_Cheat_Updater
 
         private string LatestRelease()
         {
-            string releasePath = "https://github.com/DasJNNJ/CrabGame-Cheat/releases/latest";
+            string releasePath = "https://github.com/CodeName-Anti/CrabGame-Cheat/releases/latest";
 
             HttpWebRequest request = (HttpWebRequest)WebRequest.Create(releasePath);
             request.AllowAutoRedirect = false;
@@ -90,7 +88,7 @@ namespace CrabGame_Cheat_Updater
             string redirUrl = response.Headers["Location"];
             response.Close();
             Uri uri = new Uri(redirUrl);
-            releaseVersion = uri.AbsolutePath.Replace("/DasJNNJ/CrabGame-Cheat/releases/tag/", "");
+            releaseVersion = uri.AbsolutePath.Replace("/CodeName-Anti/CrabGame-Cheat/releases/tag/", "");
 
             Console.WriteLine(releaseVersion);
             return releaseVersion;
